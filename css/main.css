@@ -1,0 +1,219 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #e576ad;
+}
+
+p {
+    color: #000000;
+}
+
+h1 {
+    font-family: 'chelaone-regular', Arial, sans-serif;
+    font-size: 70px;
+    color: #000000;
+
+}
+
+.mainHeader {
+    width: 965px;
+    height: 195px;    
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 108px;
+    margin-left: auto; 
+}
+
+#tittle {
+    height: 195px;
+}
+
+.mainHeader img {  
+    width: 422px;
+    height: 240px;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 22px;
+} 
+
+#container {
+    margin: 0 auto;
+    width: 970px;
+    height: 760px;
+    display: flex;
+    flex-direction: row;
+}
+
+#infoTop {
+    height: 70px;
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.infoConTop {
+    width: 485px;
+    height: 70px;
+    background-color: #e576ad;
+}
+
+.dec {
+    background-color:#e576ad;
+    background: #e576ad;
+    color: #e576ad;
+}
+
+.cat {
+    background-color:#e576ad;
+    background: #e576ad;
+    color: #e576ad;
+}
+
+.infoConTop p {
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: 'chelaone-regular', Arial, sans-serif;
+}
+
+#iconButtons {
+    height: 717px;
+    width: 185px;
+    background-color: #e576ad;
+    background: #e576ad;
+    color: #e576ad;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#iconButtons img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+#cupcakesCon {
+    width: 400px;
+    height: 684px;
+    padding: 30px 95px 0px 95px;
+    background-color: #e576ad;
+    position: relative;
+
+}
+
+#cupcakesCon object {
+    width: 77%;
+    position: absolute;
+    padding-top: 40px;
+}
+
+#iconsCon {
+    width: 145px;
+    height: 717px;
+    background-color: #e576ad;
+    background: #e576ad;
+    color: #e576ad;
+    padding: 0px 30px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.iconsImages {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.dropZones {
+    width: 400px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dropBox {
+    width: 400px;
+    height: 115px;
+    position: relative;
+}
+
+.one img {
+    width: 17%;
+    left: 162px;
+}
+
+.twoA img {
+    left: 120px;
+}
+
+.twoB img {
+    right: 120px;
+}
+
+.threeA img {
+    left: 100px;
+}
+
+.threeB img {
+    right: 100px;
+}
+
+.twoA img, .twoB img, .threeA img, .threeB img {
+    width: 35%;
+}
+
+.four img {
+    left: 33px;
+    bottom: 30px;
+}
+
+.dropBox img {
+    height: auto;
+	padding: 0 !important;
+	cursor: default;
+	position: absolute;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 30px;
+    border: 5px solid #e576ad;
+    border-radius: 50px;
+}
+
+.button:hover {
+    border: 5px solid #fff;
+}
+
+.button:active {
+    -webkit-transform: translate(0px, 3px);
+    -moz-transform: translate(0px, 3px);
+    transform: translate(0px, 3px);
+}
+
+.pause {
+    margin-left: 320px;
+}
+
+@keyframes iconAnimate {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(10deg)}
+    75% {transform: rotate(-10deg)}
+    100% {transform: rotate(0deg)}
+}
+
+.animateIcon {
+    transform-origin: top;
+    animation: iconAnimate 5s ease-in infinite;
+}
+
